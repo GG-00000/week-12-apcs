@@ -34,10 +34,15 @@ else:
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+speed = int(input("Speed limit is 50-100mph, what was your speed: "))
+if 50 <= speed <= 100 :
+    print("You are within the speed limit you may pass")
+else:
+    print("You are getting a ticket and your getting deported")
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+x = int(input("Enter a number: "))
+print( x != 0 and x> 10)
 # Use chained comparison to check if 3 < 4 < 5.
-
+print( 3 < 4 < 5)
 # Challenge: Create a password rule using logical operators:
 
