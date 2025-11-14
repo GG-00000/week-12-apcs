@@ -19,8 +19,30 @@ print(my_list)
 numbers = [3, 1, 4, 2]
 numbers.sort()
 print(numbers)
+my_list = [1,2,3,4,5]
+print(my_list)
+print(type(my_list))
 
+print(my_list[0])
+print(my_list[1:4])
+print(my_list[0:])
+print(my_list[-1])
 
+my_list.append(6)
+print(my_list)
+
+my_list.append(7)
+my_list.append(8)
+print(my_list)
+
+my_list.extend([10,11,12,13,14])
+print(my_list)
+
+my_list.extend(list(range(15,500)))
+print(my_list)
+
+my_list.extend(list(range(500,1000)))
+print(my_list)
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
