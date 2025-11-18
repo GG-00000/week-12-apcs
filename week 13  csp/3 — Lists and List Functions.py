@@ -77,6 +77,13 @@ print(sorted(random_list))
 sorted_list = sorted(random_list)
 print(sorted_list)
 
+
+
+#summary of lits of functions
+#.appendi(item) - adds an item to the end of the list
+# .pop(index) - removes aand returns the item at the specified index
+# .sort() - sort the list in acending order
+# .reverse() - reverses the order of the list 
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
